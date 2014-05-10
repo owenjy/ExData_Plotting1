@@ -1,13 +1,14 @@
 ## Answer 
 
-The four plots are here. 
-
+###4 Charts and 4 Full-length R codes are submitted for this project.
+ 
 
 ### Plot 1
 
 
 ![plot of plot-1](plot1.png) 
-   
+
+###Highlight of R code; NOT Full-length. See Full-length codes in plot1.R, plot2.R,ETC   
 ```
 ####  Plot 1
       png(filename = "./data/plot1.png",width = 480, height = 480, units = "px",bg="white" )
@@ -53,7 +54,8 @@ The four plots are here.
 
 ![plot of plot-4](plot4.png) 
 
-```####  Plot 4
+```
+####  Plot 4
       png(filename = "./data/plot4.png",width = 480, height = 480, units = "px",bg="white",res=72 )
 
       par(mfrow=c(2,2),mar= c(3, 4, 3, 2) ,cex=1,cex.lab=1)
