@@ -40,7 +40,7 @@
 ####  Plot 4
       png(filename = "./data/plot4.png",width = 480, height = 480, units = "px",bg="white",res=72 )
 
-      par(mfrow=c(2,2),mar= c(3, 4, 3, 2) ,cex=1,cex.lab=1)
+      par(mfrow=c(2,2),mar= c(4, 4, 3, 2) ,cex=1,cex.lab=1)
 
       plot(raw$DateTime,raw$Global_active_power,type="l", ylab="Global Acitve Power", xlab=NA)
 
@@ -54,7 +54,8 @@
       lines(raw$DateTime,raw$Sub_metering_3,col='blue')
       legend("topright",lty = 1,lwd=1,bty="n",cex=.8,col=c("black","red","blue"),legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
 
-      plot(raw$DateTime,raw$Global_reactive_power,type="l", xlab="datetime")
+      plot(raw$DateTime,raw$Global_reactive_power,type="l", 
+           xlab="datetime",ylab="Global_reactive_power")
       dev.off()
 
 
