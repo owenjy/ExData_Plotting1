@@ -1,14 +1,15 @@
-## Answer 
+## Answer to this [assignment](https://github.com/owenjy/ExData_Plotting1/blob/answer/README.md)
 
-###4 Charts and 4 Full-length R codes are submitted for this project.
- 
+###`4 Charts` and `4 Full-length R codes` are submitted for this assignment.  
+   
+##   
 
 ### Plot 1
 
 
 ![plot of plot-1](plot1.png) 
 
-###Highlight of R code; NOT Full-length. See Full-length codes in plot1.R, plot2.R,ETC   
+####Highlight of R code (NOT Full-length. See Full-length codes in plot1.R, plot2.R, etc.):   
 ```
 ####  Plot 1
       png(filename = "./data/plot1.png",width = 480, height = 480, units = "px",bg="white" )
@@ -19,11 +20,10 @@
       title("Global Active Power")
       dev.off()
 ```
-
+   
 ### Plot 2
-
 ![plot of plot-2](plot2.png) 
-
+####Highlight of R code:
 ```
 ####  Plot 2
       png(filename = "./data/plot2.png",width = 480, height = 480, units = "px",bg="white" )
@@ -36,7 +36,7 @@
 ### Plot 3
 
 ![plot of plot-3](plot3.png) 
-
+####Highlight of R code:
 ```
 ####  Plot 3
       png(filename = "./data/plot3.png",width = 480, height = 480, units = "px",bg="white" )
@@ -53,7 +53,7 @@
 ### Plot 4
 
 ![plot of plot-4](plot4.png) 
-
+####Highlight of R code:
 ```
 ####  Plot 4
       png(filename = "./data/plot4.png",width = 480, height = 480, units = "px",bg="white",res=72 )
@@ -75,3 +75,5 @@
       plot(raw$DateTime,raw$Global_reactive_power,type="l", xlab="datetime")
       dev.off()
 ```
+
+### *Thanks :)*
