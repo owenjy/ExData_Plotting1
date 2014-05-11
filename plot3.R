@@ -38,7 +38,7 @@
 #       tail(raw)
 ####  3
 ####  Plot 3
-        png(filename = "./data/plot3.png",width = 480, height = 480, units = "px",bg="white" )
+        png(filename = "./data/plot3.png",width = 480, height = 480, units = "px",bg=NA )
         plot(raw$DateTime,raw$Sub_metering_1,type="n",
              ylab="Energy sub metering",
              xlab=NA)

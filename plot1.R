@@ -40,7 +40,7 @@
 
 ####  1
 ####  Plot 1
-      png(filename = "./data/plot1.png",width = 480, height = 480, units = "px",bg="white" )
+      png(filename = "./data/plot1.png",width = 480, height = 480, units = "px",bg=NA )
       hist(raw$Global_active_power,main=NA,col="red",
            xlab="Global Acitve Power (kilowatts)",
            #xlim=range(2:6)

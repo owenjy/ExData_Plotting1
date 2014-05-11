@@ -38,7 +38,7 @@
 #       tail(raw)
 ####  4
 ####  Plot 4
-      png(filename = "./data/plot4.png",width = 480, height = 480, units = "px",bg="white",res=72 )
+      png(filename = "./data/plot4.png",width = 480, height = 480, units = "px",bg=NA,res=72 )
 
       par(mfrow=c(2,2),mar= c(4, 4, 3, 2) ,cex=1,cex.lab=1)
 

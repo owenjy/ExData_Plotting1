@@ -38,7 +38,7 @@
 #       tail(raw)
 ####  2
 ####  Plot 2
-      png(filename = "./data/plot2.png",width = 480, height = 480, units = "px",bg="white" )
+      png(filename = "./data/plot2.png",width = 480, height = 480, units = "px",bg=NA)
       plot(raw$DateTime,raw$Global_active_power,type="n",
            ylab="Global Acitve Power (kilowatts)",
            xlab=NA)
